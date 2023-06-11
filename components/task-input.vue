@@ -3,7 +3,7 @@
     <input
       v-model="currentValue"
       type="text"
-      placeholder="Waht needs to be done?"
+      placeholder="What needs to be done?"
       :class="{
         'border-red-300': error,
         'border-gray-300': !error,
