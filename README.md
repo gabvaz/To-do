@@ -1,42 +1,54 @@
-# Nuxt 3 Minimal Starter
+### WeedWay Teste Frontend
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Setup
+## Sobre
 
-Make sure to install the dependencies:
+Essa aplicação tem como objetivo criar uma lista de tarefas simples. 
 
-```bash
-# yarn
-yarn install
 
-# npm
-npm install
+## Base de Dados
+	
+Para este sistema, foi utilizado uma base de dados local(localStorage). 
 
-# pnpm
+## MVP da Aplicação
+
+-   Criar tarefa
+-   Listar tarefas criadas
+-   'Completar' tarefa 
+-   'Deletar' tarefa
+-   Filtrar tarefas concluídas/não concluídas
+
+## Tecnologias
+
+ - VueJS
+ - Nuxt
+ - Pinia
+ - Tailwind
+
+## Como utilizar
+
+1. Abra o terminal e digite o seguinte
+```sh
+git clone <url-repositorio>
+```
+
+2. Entre na pasta do projeto via terminal e digite:
+```sh
 pnpm install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`
-
-```bash
-npm run dev
+3. Por último, inicie a aplicação com:
+ ```sh
+pnpm run dev
 ```
 
-## Production
+Para ver o projeto localmente, acesse
 
-Build the application for production:
+> localhost:300
 
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Estrutura da Aplicação
+* assets/ `Onde estão as imagens e fontes utilizadas no projeto`
+* components/ `Onde estão os componentes que podem ser utilizados na aplicação.`
+* pages/ `Onde estão os arquivos que criam as rotas das páginas`
+* store/ `Onde estão os estados globais`
+* utils/ `Onde estão funções auxiliares`
