@@ -2,7 +2,7 @@
   <main class="bg-gray-100 min-h-screen">
     <section class="py-8">
       <h1 class="text-5xl font-bold text-teal-500 text-center mb-4">
-        MY TASKS
+        MY TASKSs
       </h1>
       <div class="flex flex-col gap-8 p-6 m-auto w-full lg:w-3/4 lg:max-w-xl">
         <task-input
